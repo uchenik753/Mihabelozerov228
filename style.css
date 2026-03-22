@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:25px ;
+    margin-bottom: 20px;
+  
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    flex: left;
+    height: 30px;
+}
+
+nav {
+    display: flex;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+} 
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top:25px ;
+    margin-bottom:25px ;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    background-color: white;
+    padding:30px ;
+    width: 500px;
+    margin: 30px ; 
+    text-align: center;
+
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: grey;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+    background-color: white;
+    padding:25px ;
+   flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+}
+
+footer a {
+    margin-right:25 ;
+}
+
+footer p {
+    font-size: 24px;
+}
+main img{
+    width: 100%;
+}
+
+.btn1{
+    background: linear-gradient(to right, #A1652D, #FBFBFB);
+}
+
+.btn2{
+    background: linear-gradient(to right, #FF8800, #FFBB00);
+}
+
+.btn3{
+    background: linear-gradient(to right, #64DE3F, #136816);
+}
+
+.btn4{
+    background: linear-gradient(to right, #AC13A6, #C588C3);
+}
